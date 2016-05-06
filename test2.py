@@ -5,14 +5,14 @@
 # import the standard module named os
 import os
 
-# import a module named humansize
-import humansize
-
 # example of using a function
 print('Current directory is: ', os.getcwd())
 
-print(humansize.approximate_size(1234567890, True))
+# import a module named humansize
+#import humansize
 
-actual_size = os.path.getsize(os.getcwd())
-print('Approimate size is: ', humansize.approximate_size(actual_size, True)) 
-print('Actual size is: ', actual_size)
+#print(humansize.approximate_size(1234567890, True))
+
+#actual_size = os.path.getsize(os.getcwd())
+#print('Approimate size is: ', humansize.approximate_size(actual_size, True))
+#print('Actual size is: ', actual_size)
