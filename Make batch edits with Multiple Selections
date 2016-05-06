@@ -1,0 +1,18 @@
+# Make batch edits with Multiple Selections.
+# Here Ctrl+Shift+L is used to split a selection into lines, and each line
+# is then edited simultaneously.
+#############################################################################
+
+days = ["Mon","Tue","Wed","Thu","Fri"]
+
+# Step 1 - highlight the text
+# Step 2 - use Ctrl-Shift-L to split a selection into lines
+# Step 3 - each line is edited seperatly
+
+Sun
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
